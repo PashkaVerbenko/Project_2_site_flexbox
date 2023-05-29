@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.wrap{
+    width: 1440px;
+    min-height: 600px;
+    
+}
+
+.menu {            /* Верхнє меню */
+    display: flex;
+    border-bottom: 2px solid #C4C4C4;
+}
+
+.menu_left {       /* Верхнє ліве меню */
+    height: 66px;
+    width: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_left > a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.menu_right {       /* Верхнє праве меню */
+    height: 66px;
+    width: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_right > a {
+    color: #C4C4C4;
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 300ms;
+ }
+
+.menu_right > a:hover { /* При наведені міняє колір */
+    color: #087DE4;
+}
+
+.reviews > h2{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.reviews_box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.review {
+    width: 302px;
+}
+
+.review > h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+.review > p {
+    padding-left: 20px;
+    border-left: 2px solid #ED8651;
+}
+
+.footer {
+    margin-top: 140px;
+    height: 75px;
+    background: #00A8F0;
+}
